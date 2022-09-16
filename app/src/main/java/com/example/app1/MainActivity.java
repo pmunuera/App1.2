@@ -22,12 +22,14 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
         setContentView(R.layout.content_layout_id);
 
-        /*final Button button = findViewById(R.id.button_id);
+        final Button button = findViewById(R.id.button_id);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes on main thread after user presses button
+                toast.show();
+                setContentView(R.layout.content_layout_id);
             }
-        });*/
+        });
 
     }
 }
